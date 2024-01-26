@@ -6,22 +6,22 @@
 
 Clone the repo
 
-'''bash
+```bash
 https://github.com/mohamed-ben-ticha/End-To-End-Kidney-Classification.git
-'''
+```
 
 ### Step 01- Create a conda environment
 
-'''bash
+```bash
 conda create -n cnncls python=3.8 -y
-'''
+```
 
-'''bash
+```bash
 conda activate cnncls
-'''
+```
 
 ### Step 02- install the dependencies
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
