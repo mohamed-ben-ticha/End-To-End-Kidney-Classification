@@ -7,7 +7,7 @@
 Clone the repo
 
 ```bash
-https://github.com/mohamed-ben-ticha/End-To-End-Kidney-Classification.git
+git clone https://github.com/mohamed-ben-ticha/End-To-End-Kidney-Classification.git
 ```
 
 ### Step 01- Create a conda environment
