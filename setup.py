@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "End-To-End-Kidney-Classification"
-AUTHOR_USER_NAME = "mohamed-ben-ti ha"
+AUTHOR_USER_NAME = "mohamed-ben-ticha"
 SRC_REPO = "cnnClassifier"
 AUTHOR_EMAIL = "mohamed.benticha@supcom.tn"
 
