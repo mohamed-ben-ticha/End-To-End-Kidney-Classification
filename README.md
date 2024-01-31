@@ -25,3 +25,9 @@ conda activate cnncls
 ```bash
 pip install -r requirements.txt
 ```
+
+### Step 03- Run the app
+
+```bash
+python app.py
+```
