@@ -135,7 +135,8 @@ cython_debug/
 
 
 
-artifacts/*
+artifacts/data_ingestion/*
+artifacts/prepare_base_model/*
 mlflow.txt
 inputImage.jpg
 mlruns/*
