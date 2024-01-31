@@ -512,3 +512,369 @@ x==========x]
 [2024-01-30 11:14:28,044: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-01-31 08:24:18,856: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 08:24:18,863: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 08:24:18,865: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 08:24:18,866: INFO: common: created directory at: artifacts]
+[2024-01-31 08:24:18,866: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-31 08:24:19,244: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-31 08:24:19,416: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 08:24:24,126: INFO: stage_03_model_training: *******************]
+[2024-01-31 08:24:24,126: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 08:24:24,129: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 08:24:24,130: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 08:24:24,130: INFO: common: created directory at: artifacts]
+[2024-01-31 08:24:24,130: INFO: common: created directory at: artifacts\training]
+[2024-01-31 08:25:04,052: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 08:25:09,976: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 08:25:09,976: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 08:25:09,980: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 08:25:09,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 08:25:09,981: INFO: common: created directory at: artifacts]
+[2024-01-31 08:25:22,296: INFO: common: json file saved at: scores.json]
+[2024-01-31 08:25:22,297: INFO: common: json file saved at: scores.json]
+[2024-01-31 08:25:24,880: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-31 08:25:25,442: INFO: builder_impl: Assets written to: C:\Users\b3nni\AppData\Local\Temp\tmpk2i416bx\model\data\model\assets]
+[2024-01-31 08:26:09,082: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-31 08:26:26,466: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 08:26:26,468: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 08:26:26,470: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 08:26:26,470: INFO: common: created directory at: artifacts]
+[2024-01-31 08:26:26,470: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-31 08:26:26,779: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-31 08:26:26,934: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 08:26:31,594: INFO: stage_03_model_training: *******************]
+[2024-01-31 08:26:31,594: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 08:26:31,596: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 08:26:31,597: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 08:26:31,598: INFO: common: created directory at: artifacts]
+[2024-01-31 08:26:31,598: INFO: common: created directory at: artifacts\training]
+[2024-01-31 08:29:15,960: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 08:29:21,625: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 08:29:21,625: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 08:29:21,629: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 08:29:21,630: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 08:29:21,630: INFO: common: created directory at: artifacts]
+[2024-01-31 08:30:10,033: INFO: common: json file saved at: scores.json]
+[2024-01-31 08:30:10,034: INFO: common: json file saved at: scores.json]
+[2024-01-31 08:30:12,461: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-31 08:30:12,973: INFO: builder_impl: Assets written to: C:\Users\b3nni\AppData\Local\Temp\tmp7oenmgxz\model\data\model\assets]
+[2024-01-31 08:30:54,501: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-31 09:18:42,662: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.35:5000]
+[2024-01-31 09:18:42,663: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-31 09:19:14,404: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:19:14] "GET / HTTP/1.1" 200 -]
+[2024-01-31 09:19:15,359: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:19:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-01-31 09:19:22,203: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 39, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\b3nni\onedrive\bureau\mlops\end-to-end-kidney-classification\src\cnnClassifier\pipeline\prediction.py", line 15, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-01-31 09:19:22,218: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:19:22] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-01-31 09:22:01,321: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.35:5000]
+[2024-01-31 09:22:01,322: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-31 09:22:11,627: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:22:11] "GET / HTTP/1.1" 200 -]
+[2024-01-31 09:22:16,778: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:22:16,780: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:22:16,780: INFO: common: created directory at: artifacts]
+[2024-01-31 09:22:16,781: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:22:16,908: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 39, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\b3nni\onedrive\bureau\mlops\end-to-end-kidney-classification\src\cnnClassifier\pipeline\prediction.py", line 25, in predict
+    result = np.argmax(model.predict(test_image), axis=1)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\b3nni\AppData\Local\Temp\__autograph_generated_filezlcpft_j.py", line 15, in tf__predict_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2169, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2155, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2143, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\engine\training.py", line 2111, in predict_step
+        return self(x, training=False)
+    File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\keras\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model" is incompatible with the layer: expected shape=(None, 512, 512, 3), found shape=(None, 224, 224, 3)
+
+[2024-01-31 09:22:16,913: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:22:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-01-31 09:25:24,865: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.35:5000]
+[2024-01-31 09:25:24,865: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-31 09:25:32,971: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:25:32] "GET / HTTP/1.1" 200 -]
+[2024-01-31 09:25:33,102: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:25:33] "GET / HTTP/1.1" 200 -]
+[2024-01-31 09:25:38,736: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:25:38,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:25:38,740: INFO: common: created directory at: artifacts]
+[2024-01-31 09:25:38,740: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:25:39,031: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:25:39] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:26:01,225: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:26:01,226: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:26:01,227: INFO: common: created directory at: artifacts]
+[2024-01-31 09:26:01,227: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:26:01,436: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:26:01] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:26:07,266: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:26:07,267: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:26:07,268: INFO: common: created directory at: artifacts]
+[2024-01-31 09:26:07,268: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:26:07,473: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:26:07] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:26:10,266: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:26:10,268: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:26:10,268: INFO: common: created directory at: artifacts]
+[2024-01-31 09:26:10,269: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:26:10,477: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:26:10] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:26:20,255: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:26:20,257: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:26:20,257: INFO: common: created directory at: artifacts]
+[2024-01-31 09:26:20,258: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:26:20,457: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000027B0D63DAF0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-01-31 09:26:20,461: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:26:20] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:26:42,704: INFO: stage_03_model_training: *******************]
+[2024-01-31 09:26:42,704: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 09:26:42,707: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:26:42,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:26:42,709: INFO: common: created directory at: artifacts]
+[2024-01-31 09:26:42,709: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:36:54,415: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 09:37:00,140: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 09:37:00,140: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 09:37:00,143: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:37:00,144: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:37:00,145: INFO: common: created directory at: artifacts]
+[2024-01-31 09:37:10,077: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:37:10,078: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:37:11,525: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-31 09:37:12,050: INFO: builder_impl: Assets written to: C:\Users\b3nni\AppData\Local\Temp\tmp4tkmweei\model\data\model\assets]
+[2024-01-31 09:37:18,368: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\6ef4d26bbe4e4f0f8b3713f445ecda61\artifacts\model\data]
+[2024-01-31 09:37:18,371: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\6ef4d26bbe4e4f0f8b3713f445ecda61\artifacts\model\data\model]
+[2024-01-31 09:37:18,371: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\6ef4d26bbe4e4f0f8b3713f445ecda61\artifacts\model\data\model\assets]
+[2024-01-31 09:37:18,375: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\6ef4d26bbe4e4f0f8b3713f445ecda61\artifacts\model\data\model\variables]
+[2024-01-31 09:37:18,468: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-31 09:38:45,604: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 09:38:45,606: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:38:45,607: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:38:45,607: INFO: common: created directory at: artifacts]
+[2024-01-31 09:38:45,608: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-31 09:38:45,919: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-31 09:38:46,092: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 09:38:50,783: INFO: stage_03_model_training: *******************]
+[2024-01-31 09:38:50,784: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 09:38:50,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:38:50,787: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:38:50,788: INFO: common: created directory at: artifacts]
+[2024-01-31 09:38:50,789: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:39:22,302: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 09:39:27,901: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 09:39:27,901: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 09:39:27,903: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:39:27,905: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:39:27,906: INFO: common: created directory at: artifacts]
+[2024-01-31 09:39:37,920: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:39:37,921: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:39:39,054: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-31 09:39:39,565: INFO: builder_impl: Assets written to: C:\Users\b3nni\AppData\Local\Temp\tmpd5my8iy4\model\data\model\assets]
+[2024-01-31 09:39:45,936: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\57bf49a75af14ba6a1e1efc07a3a2d1a\artifacts\model\data]
+[2024-01-31 09:39:45,939: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\57bf49a75af14ba6a1e1efc07a3a2d1a\artifacts\model\data\model]
+[2024-01-31 09:39:45,939: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\57bf49a75af14ba6a1e1efc07a3a2d1a\artifacts\model\data\model\assets]
+[2024-01-31 09:39:45,942: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\57bf49a75af14ba6a1e1efc07a3a2d1a\artifacts\model\data\model\variables]
+[2024-01-31 09:39:46,043: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-31 09:45:01,111: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.8.35:5000]
+[2024-01-31 09:45:01,111: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-31 09:45:07,845: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:45:07] "GET / HTTP/1.1" 200 -]
+[2024-01-31 09:45:14,926: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:45:14,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:45:14,929: INFO: common: created directory at: artifacts]
+[2024-01-31 09:45:14,929: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:45:15,198: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:45:15] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:45:27,315: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:45:27,317: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:45:27,318: INFO: common: created directory at: artifacts]
+[2024-01-31 09:45:27,318: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:45:27,511: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:45:27] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:46:20,768: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:46:20,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:46:20,770: INFO: common: created directory at: artifacts]
+[2024-01-31 09:46:20,770: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:46:20,976: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:46:20] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:46:29,240: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:46:29,242: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:46:29,242: INFO: common: created directory at: artifacts]
+[2024-01-31 09:46:29,242: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:46:29,438: INFO: _internal: 127.0.0.1 - - [31/Jan/2024 09:46:29] "POST /predict HTTP/1.1" 200 -]
+[2024-01-31 09:52:00,179: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 09:52:00,181: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:52:00,183: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:52:00,183: INFO: common: created directory at: artifacts]
+[2024-01-31 09:52:00,184: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-31 09:52:00,495: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-31 09:52:00,652: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 09:52:05,322: INFO: stage_03_model_training: *******************]
+[2024-01-31 09:52:05,322: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 09:52:05,324: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:52:05,325: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:52:05,326: INFO: common: created directory at: artifacts]
+[2024-01-31 09:52:05,326: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:52:36,077: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 09:52:41,768: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 09:52:41,769: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 09:52:41,771: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:52:41,773: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:52:41,773: INFO: common: created directory at: artifacts]
+[2024-01-31 09:52:51,553: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:52:51,554: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:52:52,694: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-31 09:52:53,164: INFO: builder_impl: Assets written to: C:\Users\b3nni\AppData\Local\Temp\tmpsc8jwxqj\model\data\model\assets]
+[2024-01-31 09:52:59,525: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\ee4c9dbbd9f34c9e91058854ef0c1fa9\artifacts\model\data]
+[2024-01-31 09:52:59,526: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\ee4c9dbbd9f34c9e91058854ef0c1fa9\artifacts\model\data\model]
+[2024-01-31 09:52:59,527: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\ee4c9dbbd9f34c9e91058854ef0c1fa9\artifacts\model\data\model\assets]
+[2024-01-31 09:52:59,530: INFO: dir_util: creating C:\Users\b3nni\OneDrive\Bureau\MLOps\End-To-End-Kidney-Classification\mlruns\0\ee4c9dbbd9f34c9e91058854ef0c1fa9\artifacts\model\data\model\variables]
+[2024-01-31 09:52:59,624: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-01-31 09:55:00,426: INFO: stage_03_model_training: *******************]
+[2024-01-31 09:55:00,427: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 09:55:00,429: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:55:00,430: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:55:00,431: INFO: common: created directory at: artifacts]
+[2024-01-31 09:55:00,431: INFO: common: created directory at: artifacts\training]
+[2024-01-31 09:56:32,553: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 09:56:38,200: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 09:56:38,201: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 09:56:38,203: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:56:38,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:56:38,205: INFO: common: created directory at: artifacts]
+[2024-01-31 09:56:48,039: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:56:48,041: INFO: common: json file saved at: scores.json]
+[2024-01-31 09:56:48,684: ERROR: stage_04_model_evaluation: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+==========================================']
+Traceback (most recent call last):
+  File "src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 27, in <module>
+    obj.main()
+  File "src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\b3nni\onedrive\bureau\mlops\end-to-end-kidney-classification\src\cnnClassifier\components\model_evaluation.py", line 52, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 350, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 275, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 131, in create_run
+    return self.store.create_run(
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 175, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 56, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\b3nni\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 401 != 200. Response body: '=============== ATTENTION! ===============
+
+To use authentication, you must first: 
+    Get your default access token from: https://dagshub.com/user/settings/tokens
+    OR 
+    Set a password: https://dagshub.com/user/settings/password 
+=========================================='
+[2024-01-31 09:59:44,775: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 09:59:44,778: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:59:44,779: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:59:44,779: INFO: common: created directory at: artifacts]
+[2024-01-31 09:59:44,780: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-31 09:59:45,093: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-31 09:59:45,260: INFO: stage_02_prepare_base_model: >>>>>> stage: Model preparation stage started <<<<<<]
+[2024-01-31 09:59:49,835: INFO: stage_03_model_training: *******************]
+[2024-01-31 09:59:49,835: INFO: stage_03_model_training: >>>>>> stage: Training started <<<<<<]
+[2024-01-31 09:59:49,838: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 09:59:49,839: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 09:59:49,840: INFO: common: created directory at: artifacts]
+[2024-01-31 09:59:49,840: INFO: common: created directory at: artifacts\training]
+[2024-01-31 10:00:21,089: INFO: stage_03_model_training: >>>>>> stage: Training completed <<<<<<
+
+x==========x]
+[2024-01-31 10:00:26,645: INFO: stage_04_model_evaluation: *******************]
+[2024-01-31 10:00:26,645: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-31 10:00:26,647: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-31 10:00:26,649: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-31 10:00:26,649: INFO: common: created directory at: artifacts]
+[2024-01-31 10:00:36,377: INFO: common: json file saved at: scores.json]
+[2024-01-31 10:00:36,378: INFO: common: json file saved at: scores.json]
+[2024-01-31 10:00:39,159: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-31 10:00:39,619: INFO: builder_impl: Assets written to: C:\Users\b3nni\AppData\Local\Temp\tmp9t0zr8t0\model\data\model\assets]
+[2024-01-31 10:01:21,937: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
