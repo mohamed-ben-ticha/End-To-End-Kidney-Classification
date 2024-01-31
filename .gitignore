@@ -140,3 +140,5 @@ artifacts/prepare_base_model/*
 mlflow.txt
 inputImage.jpg
 mlruns/*
+kidney-classification-app_accessKeys.csv
+kidney.pem
